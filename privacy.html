@@ -1,47 +1,66 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Privacy Policy — Gattone Studios</title>
-  <style>
-    body { font-family: system-ui, sans-serif; line-height:1.6; max-width:800px; margin:40px auto; padding:0 20px; color:#222; }
-    h1 { font-size:2rem; margin-bottom:20px; }
-    h2 { margin-top:30px; font-size:1.3rem; }
-    a { color:#007bff; }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Effective Date: <script>document.write(new Date().getFullYear());</script></p>
+  <header>
+    <h1>Gattone Studios</h1>
+    <p>Creative systems, brand strategy, and design that work in the real world.
+       Strategy-led, outcome-driven, and built for clarity and scale.</p>
+    <nav>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#work">Work</a>
+      <a href="index.html#about">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+    <a href="index.html#contact" class="btn">Start a Project</a>
+  </header>
 
-  <p>Gattone Studios values your privacy. This Privacy Policy explains how we handle personal information when you use our website or services.</p>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p>Effective Date: <script>document.write(new Date().getFullYear());</script></p>
 
-  <h2>Information We Collect</h2>
-  <p>We may collect:</p>
-  <ul>
-    <li>Contact details you provide (such as name and email).</li>
-    <li>Project information you submit through forms.</li>
-    <li>Basic technical data (browser type, device, approximate location) via analytics tools.</li>
-  </ul>
+    <p>Gattone Studios values your privacy. This Privacy Policy explains how we handle personal information when you use our website or services.</p>
 
-  <h2>How We Use Information</h2>
-  <p>We use collected information to:</p>
-  <ul>
-    <li>Communicate with you about services.</li>
-    <li>Deliver and improve our offerings.</li>
-    <li>Maintain site security and functionality.</li>
-  </ul>
+    <h2>Information We Collect</h2>
+    <p>We may collect:</p>
+    <ul>
+      <li>Contact details you provide (such as name and email).</li>
+      <li>Project information you submit through forms.</li>
+      <li>Basic technical data (browser type, device, approximate location) via analytics tools.</li>
+    </ul>
 
-  <h2>Sharing</h2>
-  <p>We do not sell your data. Information may be shared only with trusted service providers (e.g. hosting, email) for operational purposes.</p>
+    <h2>How We Use Information</h2>
+    <p>We use collected information to:</p>
+    <ul>
+      <li>Communicate with you about services.</li>
+      <li>Deliver and improve our offerings.</li>
+      <li>Maintain site security and functionality.</li>
+    </ul>
 
-  <h2>Your Rights</h2>
-  <p>You may request access, updates, or deletion of your personal data by contacting us at <a href="mailto:allisongattone@gmail.com">allisongattone@gmail.com</a>.</p>
+    <h2>Sharing</h2>
+    <p>We do not sell your data. Information may be shared only with trusted service providers (e.g. hosting, email) for operational purposes.</p>
 
-  <h2>Changes</h2>
-  <p>We may update this Privacy Policy from time to time. The latest version will always be posted here.</p>
+    <h2>Your Rights</h2>
+    <p>You may request access, updates, or deletion of your personal data by contacting us at <a href="mailto:allisongattone@gmail.com">allisongattone@gmail.com</a>.</p>
 
-  <p>Contact: <a href="mailto:allisongattone@gmail.com">allisongattone@gmail.com</a></p>
+    <h2>Changes</h2>
+    <p>We may update this Privacy Policy from time to time. The latest version will always be posted here.</p>
+
+    <p>Contact: <a href="mailto:allisongattone@gmail.com">allisongattone@gmail.com</a></p>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Gattone Studios. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
