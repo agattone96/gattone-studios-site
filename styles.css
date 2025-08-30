@@ -85,3 +85,10 @@ footer {
 .btn:hover {
   background: #5de4e6;
 }
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
